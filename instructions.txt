@@ -1,0 +1,5 @@
+brew install --cask firefox
+gem install capybara
+gem install selenium-webdriver
+brew install geckodriver
+# visit http://capybaraworkout.herokuapp.com/ for rest of instructions

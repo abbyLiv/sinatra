@@ -1,0 +1,28 @@
+.monster-image {
+  width: 350px;
+  height: 350px;
+  border: 2px solid grey;
+}
+
+.monster-container {
+  position: absolute;
+  margin: 70px;
+}
+
+.action-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 100px;
+  margin-left: 70px;
+}
+
+#cont1 {
+  left: 0;
+  top: 0;
+}
+
+#cont2 {
+  right: 0;
+  top: 0;
+}

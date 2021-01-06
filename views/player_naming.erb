@@ -1,0 +1,16 @@
+<% if @player1 and @player2 %>
+  <h1><%= @player1 %> and <%= @player2 %></h1>
+<% end %>
+<form class="" action="/game-begin" method="post">
+  <label for="p1">Player 1 Name</label>
+  <br>
+  <input type="text" name="p1" value="">
+  <br><br>
+  <label for="p2">Player 2 Name</label>
+  <br>
+  <input type="text" name="p2" value="">
+  <br><br>
+  <input type="submit" name="" value="Submit Player Names">
+</form>
+
+<img src="/monster1.jpg" alt="">
